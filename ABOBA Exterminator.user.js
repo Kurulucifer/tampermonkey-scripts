@@ -12,6 +12,9 @@
 /*globals $*/
 
 const config = { attributes: true, childList: true, subtree: true };
+const convertImage = "https://cdn.7tv.app/emote/637ae750130746c5b9f61c44/1x.webp 1x, https://cdn.7tv.app/emote/637ae750130746c5b9f61c44/2x.webp 2x";
+const convertName = "wideKokoDizzy"; // This is basically a formality.
+
 
 function abobaExterminator(chat) {
     // Declare the very first aboba (unless it's null)
@@ -35,8 +38,8 @@ function abobaExterminator(chat) {
         // Checks for aboba and if it exists, replace with wideKokoDizzy
         aboba = document.querySelector('img[alt="ABOBA"]')
         if (aboba) {
-            aboba.srcset = "https://cdn.7tv.app/emote/637ae750130746c5b9f61c44/1x.webp 1x, https://cdn.7tv.app/emote/637ae750130746c5b9f61c44/2x.webp 2x";
-            aboba.alt = "wideKokoDizzy";
+            aboba.srcset = convertImage;
+            aboba.alt = convertName;
         }
     };
 
