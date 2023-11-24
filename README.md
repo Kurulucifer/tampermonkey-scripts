@@ -1,3 +1,5 @@
 # tampermonkey-scripts
 
-I put my random tampermonkey scripts here.
+ABOBA Exterminator replaces ABOBA's with wideKoko emotes.
+
+https://imgur.com/a/MndeQfi
