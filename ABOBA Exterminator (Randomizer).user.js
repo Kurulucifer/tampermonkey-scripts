@@ -61,6 +61,8 @@ function abobaExterminator(chat) {
         }
         */
 
+        // convertName and changing alt is technically not needed. May completely exterminate abobas mentions in the future though, in the entire document.
+
         var chosen = emoteRandomizer(wideKokoList);
         var convertImage = chosen[1];
         var convertName = chosen[0];
