@@ -14,7 +14,7 @@ Click the extension icon and create a new script.
 
 Copy and paste the script code from here and save. 
 
-These scripts auto-enable only on [zy0xxx](https://www.twitch.tv/zy0xxx) streams. If you want to enable this for other channels,  copy and paste the  "// @match" line below with the appropriate channel link. If you want to enable this globally across twitch, change the "// @match" line to just "https://www.twitch.tv/*". Make sure the indentation is consistent with the other lines!
+These scripts auto-enable only on [zy0xxx](https://www.twitch.tv/zy0xxx) streams. If you want to enable this for other channels,  copy and paste the  "// @match" line below with the appropriate channel link (plus the asterisk so VOD chats are included). If you want to enable this globally across twitch, change the "// @match" line to just "https://www.twitch.tv/*". Make sure the indentation is consistent with the other lines!
 
 ## Changelog
 
