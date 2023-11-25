@@ -28,6 +28,8 @@ const wideKokoList = {"wideKokoPout": "637ae7863b8505514ff559a2",
                       "wideKokoSleepy": "64ae7d076ccd286783ce7e71",
                       "wideKokoDizzy": "637ae750130746c5b9f61c44"};
 
+const filterList = ["ABOBA", "ABOZO"];
+
 const config = { attributes: true, childList: true, subtree: true };
 
 
@@ -59,22 +61,17 @@ function abobaExterminator(chat) {
         }
         */
 
-        var chosen = emoteRandomizer(wideKokoList);
-
         // Checks for aboba and if it exists, replace with other emote
         // Replacing alt is unnecessary, but might have a function later...
-        var aboba = document.querySelector('img[alt="ABOBA"]')
-        if (aboba) {
-            aboba.srcset = chosen[1];
-            aboba.alt = chosen[0];
-        }
 
-        chosen = emoteRandomizer(wideKokoList);
-
-        var abozo = document.querySelector('img[alt="ABOZO"]')
-        if (abozo) {
-            abozo.srcset = chosen[1];
-            abozo.alt = chosen[0];
+        for (var i = 0; i < filterList.length; i++) {
+            var chosen = emoteRandomizer(wideKokoList);
+            var filter = "img[alt=\"" + filterList[i] + "\"]";
+            var findFilter = document.querySelector(filter);
+            if (findFilter) {
+                findFilter.srcset = chosen[1];
+                findFilter.alt = chosen[0];
+            }
         }
     };
 
@@ -102,6 +99,3 @@ var preloader = new MutationObserver(function (mutations, me) {
     }
 });
 preloader.observe(document, config);
-
-
-
