@@ -43,8 +43,6 @@ function emoteRandomizer(obj) {
 }
 
 function abobaExterminator(chat) {
-    // Declare the very first aboba (unless it's null)
-    var aboba = document.querySelector('img[alt="ABOBA"]')
 
     // Callback function to execute when mutations are observed
     // Copied straight from the MDN docs LOL
@@ -61,18 +59,22 @@ function abobaExterminator(chat) {
         }
         */
 
-        // convertName and changing alt is technically not needed. May completely exterminate abobas mentions in the future though, in the entire document.
-
         var chosen = emoteRandomizer(wideKokoList);
-        var convertImage = chosen[1];
-        var convertName = chosen[0];
-
 
         // Checks for aboba and if it exists, replace with other emote
-        aboba = document.querySelector('img[alt="ABOBA"]')
+        // Replacing alt is unnecessary, but might have a function later...
+        var aboba = document.querySelector('img[alt="ABOBA"]')
         if (aboba) {
-            aboba.srcset = convertImage;
-            aboba.alt = convertName;
+            aboba.srcset = chosen[1];
+            aboba.alt = chosen[0];
+        }
+
+        chosen = emoteRandomizer(wideKokoList);
+
+        var abozo = document.querySelector('img[alt="ABOZO"]')
+        if (abozo) {
+            abozo.srcset = chosen[1];
+            abozo.alt = chosen[0];
         }
     };
 
