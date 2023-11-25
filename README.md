@@ -18,6 +18,11 @@ Copy and paste the script code from here and save.
 
 These scripts auto-enable only on [Zy0xxx](https://www.twitch.tv/zy0xxx) Twitch streams. If you want to enable this for other channels,  copy and paste the  "// @match" line with the appropriate channel link (plus the asterisk so VOD chats are included). If you want to enable this globally across twitch, change the "// @match" line to just "https://www.twitch.tv/*". Make sure the indentation is consistent with the other lines!
 
+## Known Issues
+
+- Using wideKokoGacha multiple times in a text-only message only shows one wideKokoGacha.
+- wideKokoGacha does not have any spacing between it and adjacent text/emotes. 
+
 ## Changelog
 
 11/24/23 - ABOZO added to the filter list.
