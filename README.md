@@ -6,7 +6,7 @@ ABOBA Exterminator replaces ABOBA's with wideKoko emotes. Only the (Randomizer) 
 
 wideKokoGacha just makes wideKokoGacha return a random wideKoko, just like ABOBA Exterminator but without having to write ABOBA. 
 
-Feel free to suggest improvements to the script! I'm not too familiar with JavaScript/HTML/CSS and did a lot of Googling.
+Feel free to suggest improvements to the scripts! I'm not too familiar with JavaScript/HTML/CSS and did a lot of Googling.
 
 ## Installation
 
