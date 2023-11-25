@@ -2,7 +2,7 @@
 
 ## Scripts
 
-ABOBA Exterminator replaces ABOBA's with wideKoko emotes. Only the (Randomizer) version is being updated now.
+ABOBA Exterminator replaces ABOBA's with wideKoko emotes. Only the (Randomizer) version is being updated now. Example: https://imgur.com/a/MndeQfi
 
 wideKokoGacha just makes wideKokoGacha return a random wideKoko, just like ABOBA Exterminator but without having to write ABOBA. 
 
@@ -19,5 +19,3 @@ These scripts auto-enable only on [Zy0xxx](https://www.twitch.tv/zy0xxx) Twitch 
 ## Changelog
 
 11/24/23 - ABOZO added to the filter list.
-
-https://imgur.com/a/MndeQfi
