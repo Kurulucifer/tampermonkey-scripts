@@ -25,4 +25,5 @@ These scripts auto-enable only on [Zy0xxx](https://www.twitch.tv/zy0xxx) Twitch 
 
 ## Changelog
 
+11/27/23 - Changed the preloader so that it works in VODs (?)
 11/24/23 - ABOZO added to the filter list.
