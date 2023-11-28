@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Changes ABOBA to something else
 // @author       Creyea
-// @match        https://www.twitch.tv/zy0xxx*
+// @match        https://www.twitch.tv/*
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
@@ -32,7 +32,7 @@ const filterList = ["ABOBA", "ABOZO"];
 
 const config = { attributes: true, childList: true, subtree: true };
 
-
+// Returns an array containing the replacement emote alt (name) and srcset (image links)
 function emoteRandomizer(obj) {
     var keys = Object.keys(obj);
     var key = keys[keys.length * Math.random() << 0];
@@ -89,7 +89,7 @@ var preloader = new MutationObserver(function (mutations, me) {
     // `me` is the MutationObserver instance
 
     // Checks for chat every mutation.
-    var chat = document.querySelector(".seventv-chat-list");
+    var chat = document.querySelector("seventv-container");
 
     // If chat exists, start the abobaExterminator.
     if (chat) {
