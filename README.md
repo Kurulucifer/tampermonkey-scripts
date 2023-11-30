@@ -21,7 +21,8 @@ These scripts auto-enable only on [Zy0xxx](https://www.twitch.tv/zy0xxx) Twitch 
 ## Known Issues
 
 - Using wideKokoGacha multiple times in a text-only message only shows one wideKokoGacha.
-- wideKokoGacha does not have any spacing between it and adjacent text/emotes. 
+- wideKokoGacha does not have any spacing between it and adjacent text/emotes.
+- ABOBA Exterminator doesn't work on VODs initially but only after a refresh after opening the VOD chat.
 
 ## Changelog
 
