@@ -28,7 +28,7 @@ const wideKokoList = {"wideKokoPout": "637ae7863b8505514ff559a2",
                       "wideKokoSleepy": "64ae7d076ccd286783ce7e71",
                       "wideKokoDizzy": "637ae750130746c5b9f61c44"};
 
-const filterList = ["ABOBA", "ABOZO"];
+const filterList = ["ABOBA", "ABOZO", "AGUOBA"];
 
 const config = { attributes: true, childList: true, subtree: true };
 
